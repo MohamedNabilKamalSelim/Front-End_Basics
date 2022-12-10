@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search For movies</title>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/cyborg/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <div class="pb-1 m-1">
+          <a class="navbar-brand text-white-50" href="index.html"
+            >Search For movies</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4 mb-4 m-auto">
+      <div class="bg-light align-middle p-4 rounded-4">
+        <h3 class="text-center">Search For Any Movie</h3>
+        <form id="searchForm">
+          <input
+            type="text"
+            class="form-control"
+            id="searchText"
+            placeholder="Search Movies..."
+          />
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

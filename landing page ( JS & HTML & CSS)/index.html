@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#"><img src="images/logo.png" alt="Logo" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Aboout</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="text">
+          <h2>iphone pro max</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+            saepe.
+          </p>
+          <a href="#">All products</a>
+        </div>
+        <div class="image">
+          <img id="main-image" src="images/0.png" alt="iphone image" />
+        </div>
+        <div class="icons">
+          <img
+            src="images/0.png"
+            onclick="ChangeImage(this.src); ChangeTheme('#000');"
+            alt="image"
+          />
+          <img
+            src="images/1.png"
+            onclick="ChangeImage(this.src); ChangeTheme('#247ec8');"
+            alt="image"
+          />
+          <img
+            src="images/2.png"
+            onclick="ChangeImage(this.src); ChangeTheme('#1e1e1e');"
+            alt="image"
+          />
+          <img
+            src="images/3.png"
+            onclick="ChangeImage(this.src); ChangeTheme('#c79b53');"
+            alt="image"
+          />
+          <img
+            src="images/4.png"
+            onclick="ChangeImage(this.src); ChangeTheme('#c82525');"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
